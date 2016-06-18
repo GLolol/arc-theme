@@ -1,3 +1,9 @@
+arc-theme (20160605-0utopia1~deb8u1) jessie; urgency=low
+
+  * Rebuild for Debian Jessie / GTK+ 3.14.x.
+
+ -- James Lu <bitflip3@gmail.com>  Sat, 18 Jun 2016 16:01:58 -0700
+
 arc-theme (20160605-0utopia1) unstable; urgency=medium
 
   * Initial Utopia repository release.
