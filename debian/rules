@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+PACKAGE_NAME=arc-gtk-theme
+
+override_dh_auto_install:
+	dh_auto_install
+	./autogen.sh --prefix=$(shell pwd)/debian/$(PACKAGE_NAME)/usr
+	make install
