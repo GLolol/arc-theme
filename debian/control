@@ -13,7 +13,10 @@ Package: arc-gtk-theme
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: arc-firefox-theme,
- arc-icon-theme
+ arc-icon-theme,
+ gnome-themes-standard,
+ gtk2-engines-murrine,
+ libgtk-3-0
 Description: flat theme with transparent elements
  Arc is a flat theme with transparent elements for GTK+ 3, GTK+ 2 and GNOME
  Shell. It supports GNOME, Unity, Budgie, Pantheon, XFCE, Mate, and others.
