@@ -3,7 +3,10 @@ Section: gnome
 Priority: optional
 Maintainer: James Lu <bitflip3@gmail.com>
 Build-Depends: debhelper (>= 9),
- libgtk-3-dev (>= 3.14)
+ libgtk-3-dev (>= 3.14),
+ autoconf,
+ automake,
+ pkg-config
 Standards-Version: 3.9.8
 Homepage: https://github.com/horst3180/arc-theme
 Vcs-Git: https://github.com/GLolol/arc-theme
