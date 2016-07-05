@@ -1,3 +1,14 @@
+arc-theme (20160605-0utopia3~) UNRELEASED; urgency=medium
+
+  [ James Lu ]
+  * Build-deps: autoconf, automake, pkg-config
+
+  [ fossfreedom ]
+  * add missing LGPL license and associated files
+  * corrected formatting of copyright LGPL
+
+ -- James Lu <bitflip3@gmail.com>  Tue, 05 Jul 2016 13:18:03 -0700
+
 arc-theme (20160605-0utopia2) unstable; urgency=medium
 
   * d/control: add missing dependencies.
