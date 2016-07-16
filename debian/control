@@ -18,7 +18,7 @@ Depends: ${misc:Depends}
 Recommends: arc-firefox-theme,
  arc-icon-theme,
  gnome-themes-standard,
- gtk2-engines-murrine,
+ gtk2-engines-murrine (>= 0.98.1.1-6~),
  libgtk-3-0 (>= 3.14~)
 Conflicts: arc-theme
 Replaces: arc-theme
