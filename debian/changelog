@@ -6,6 +6,7 @@ arc-theme (20160605-0utopia3~) UNRELEASED; urgency=medium
   * Add a versioned depends on gtk2-engines-murrine >= 0.98.1.1-6~
   * Add patch from Angelogeb to fix shadows on newer versions of the Murrine
     engine.
+  * Fix a whitespace error in debian/copyright.
 
   [ fossfreedom ]
   * add missing LGPL license and associated files
