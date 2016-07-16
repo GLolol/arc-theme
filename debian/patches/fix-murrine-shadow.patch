@@ -1,0 +1,23 @@
+From 95b93c35642e315a0657f2ceae8c7c58ee880769 Mon Sep 17 00:00:00 2001
+From: Angelogeb <Angelogeb@users.noreply.github.com>
+Date: Fri, 15 Jul 2016 09:47:37 +0200
+Subject: [PATCH] Update main.rc
+
+fix misplaced labels on desktop for latest engine-murrine update
+---
+ common/gtk-2.0/main.rc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/common/gtk-2.0/main.rc b/common/gtk-2.0/main.rc
+index 24b5ca7..489b6bd 100644
+--- a/common/gtk-2.0/main.rc
++++ b/common/gtk-2.0/main.rc
+@@ -2205,7 +2205,7 @@ style "xfdesktop-icon-view" {
+   fg[ACTIVE] = @selected_fg_color
+ 
+   engine "murrine" {
+-    textstyle = 5
++    textstyle = 0
+     text_shade = 0.05
+   }
+ }
