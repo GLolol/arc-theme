@@ -1,4 +1,4 @@
-arc-theme (20160605-0utopia3~) UNRELEASED; urgency=medium
+arc-theme (20160605-0utopia3) unstable; urgency=medium
 
   [ James Lu ]
   * Add missing build-deps: autoconf, automake, pkg-config
@@ -12,7 +12,7 @@ arc-theme (20160605-0utopia3~) UNRELEASED; urgency=medium
   * add missing LGPL license and associated files
   * corrected formatting of copyright LGPL
 
- -- James Lu <bitflip3@gmail.com>  Tue, 05 Jul 2016 13:18:03 -0700
+ -- James Lu <bitflip3@gmail.com>  Sat, 16 Jul 2016 00:20:33 -0700
 
 arc-theme (20160605-0utopia2) unstable; urgency=medium
 
