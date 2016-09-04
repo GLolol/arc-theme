@@ -2,23 +2,17 @@
 #export DH_VERBOSE = 1
 
 %:
-	dh $@
-
-PACKAGE = $(shell dpkg-parsechangelog --show-field=Source)
-
-override_dh_auto_install:
-	dh_auto_install
-	./autogen.sh --prefix=$(shell pwd)/debian/$(PACKAGE)/usr
-	make install
+	dh $@ --with autoreconf
 
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -f Makefile.in common/Makefile.in extra/Makefile.in configure aclocal.m4
 	rm -rf build-aux
 
-# get-orig-source rule to fetch the sources from the Git snapshot.
-# This looks as the "commithash" portion of the Debian package version, in the
-# format majorversion~commithash-1.
+# This get-orig-source rule creates a tarball given the Git URL and commit hash.
+# This looks at the "commithash" portion of the Debian package version, which is
+# in the format majorversion+gitXYZ~commithash-1.
+PACKAGE = $(shell dpkg-parsechangelog --show-field=Source)
 
 VERSION = $(shell dpkg-parsechangelog --show-field=Version)
 ORIG_VERSION = $(shell echo $(VERSION) | cut -f 1 -d '-')
