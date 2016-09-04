@@ -1,4 +1,4 @@
-Source: arc-theme
+Source: arc-theme-git
 Section: gnome
 Priority: optional
 Maintainer: James Lu <bitflip3@gmail.com>
@@ -12,7 +12,7 @@ Homepage: https://github.com/horst3180/arc-theme
 Vcs-Git: https://github.com/GLolol/arc-theme
 Vcs-Browser: https://github.com/GLolol/arc-theme
 
-Package: arc-gtk-theme
+Package: arc-theme-git
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: arc-firefox-theme,
@@ -20,9 +20,10 @@ Recommends: arc-firefox-theme,
  gnome-themes-standard,
  gtk2-engines-murrine (>= 0.98.1.1-6~),
  libgtk-3-0 (>= 3.14~)
-Conflicts: arc-theme
-Replaces: arc-theme
-Description: flat theme with transparent elements
+Conflicts: arc-theme, arc-gtk-theme
+Replaces: arc-theme, arc-gtk-theme
+Provides: arc-theme, arc-gtk-theme
+Description: flat theme with transparent elements (git snapshot)
  Arc is a flat theme with transparent elements for GTK+ 3, GTK+ 2 and GNOME
  Shell. It supports GNOME, Unity, Budgie, Pantheon, XFCE, Mate, and others.
  .
