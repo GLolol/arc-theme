@@ -24,6 +24,6 @@ Replaces: arc-theme, arc-gtk-theme
 Provides: arc-theme, arc-gtk-theme
 Description: flat theme with transparent elements (git snapshot)
  Arc is a flat theme with transparent elements for GTK+ 3, GTK+ 2 and GNOME
- Shell. It supports GNOME, Unity, Budgie, Pantheon, XFCE, Mate, and others.
+ Shell. It supports GNOME, Unity, Budgie, Pantheon, Xfce, Mate, and others.
  .
  This package installs three versions: Arc, Arc-Darker, and Arc-Dark.
