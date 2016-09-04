@@ -1,3 +1,18 @@
+arc-theme-git (20160605+git28~c374cba-0utopia1) unstable; urgency=medium
+
+  * Rename package to arc-theme-git.
+  * New upstream snapshot.
+  * Drop patches, superseded by fixes upstream.
+  * debian/ folder changes:
+      - Switch to dh-autoreconf, and update the relevant dependencies.
+      - rules: add get-orig-source rule.
+      - control: Conflict/Provide/Replace arc-gtk-theme.
+      - control: fix capitalization of Xfce.
+      - copyright: condense matching for gnome-shell SCSS / CSS using 
+        wildcards.
+
+ -- James Lu <bitflip3@gmail.com>  Sat, 03 Sep 2016 21:50:59 -0700
+
 arc-theme (20160605-0utopia3) unstable; urgency=medium
 
   [ James Lu ]
