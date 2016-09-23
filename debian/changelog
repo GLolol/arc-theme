@@ -1,3 +1,10 @@
+arc-theme-git (20160605+git57~2fd0b4d-0utopia1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * d/control: add missing depends on gawk.
+
+ -- James Lu <bitflip3@gmail.com>  Thu, 22 Sep 2016 18:35:50 -0700
+
 arc-theme-git (20160605+git28~c374cba-0utopia1) unstable; urgency=medium
 
   * Rename package to arc-theme-git.
